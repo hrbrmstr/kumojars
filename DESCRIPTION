@@ -1,0 +1,22 @@
+Package: kumojars
+Type: Package
+Title: Java Archive Wrapper Supporting the 'kumo' Package
+Version: 3.4.0
+Date: 2017-09-04
+Authors@R: c(
+    person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is")
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+SystemRequirements: Java
+Description: Contents of the 'Kumo' Java archive.
+URL: https://github.com/hrbrmstr/kumojars
+BugReports: https://github.com/hrbrmstr/kumojars/issues
+License: Apache License 2.0 | file LICENSE
+Encoding: UTF-8
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0),
+    rJava
+RoxygenNote: 6.0.1.9000

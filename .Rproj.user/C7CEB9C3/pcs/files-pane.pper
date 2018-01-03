@@ -1,0 +1,9 @@
+{
+    "path" : "~/packages/kumojars",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
